@@ -18,3 +18,18 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     background-color: #495057;
     color: #fff;
 }
+:root {
+    --bs-primary:#cfadeb;
+    --bs-primary-rgb:207, 173, 235;
+    --bs-secondary:#cfadeb;
+    --bs-secondary-rgb:207, 173, 235;
+}
+.expedu_icon:hover{
+    color: var(--bs-secondary);
+}
+a {
+    color: var(--bs-primary);
+}
+.social-icons .social-icon:hover{
+    background-color: var(--bs-secondary);
+}
